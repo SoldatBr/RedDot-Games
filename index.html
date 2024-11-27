@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RedDot Games</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu" class="container__rotulo">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Jogos</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Light Souls</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Seriko</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Heal Dead</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Golden Vow</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Storm Castle</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Berserk</a>
+        </li>
+      </ul>
+      <img src="img/download (1).png" alt="Logo da RedDot Games" class="container__imagem" width="50">
+      <h1 class="container__titulo"><b class="container__titulo--negrito">RedDot</b>Games</h1>
+
+      <ul class="opções">
+        <input type="checkbox" id="opções-menu" class="opções__botão" />
+        <label for="opções-menu" class="opções__rotulo">
+          <li class="opções__item">Jogos</li>
+        </label>
+
+        <ul class="lista-menu">
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Wind Castle</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Young Ring</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Heal Dead</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Berserk</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Angels Souls</a>
+          </li>
+        </ul>
+        <li class="opções__item"><a href="#" class="opções__link">Equipe</a></li>
+        <li class="opções__item"><a href="#" class="opções__link">Em Progresso</a></li>
+      </ul>
+
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
+          class="container__imagem container__imagem-transparente"></a>
+      <a href="#" class="container__link">
+        <img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem">
+        <p class="container__texto">Minha sacola</p>
+      </a>
+      <a href="#" class="container__link">
+        <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+        <p class="container__texto">Meu perfil</p>
+      </a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">REDDOT GAMES</h2>
+    <p class="banner__texto">Acessibilidade e desenvolvimento para todos!</p>
+    <input type="search" class="banner__pesquisa" placeholder="O que procura?">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Nossos jogos</h2>
+
+    <div class="carrossel__container">
+      <!-- Slider main container -->
+      <div class="swiper">
+
+        <div class="swiper-pagination"></div>
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="img/WindCastle.png"
+              alt="Jogo Wind Castle"></div>
+          <div class="swiper-slide"><img src="img/Berserk.png"
+              alt="Jogo Berserk"></div>
+          <div class="swiper-slide"><img src="img/HealDead.png" alt="Jogo Heal Dead">
+          </div>
+          <div class="swiper-slide">
+            <img src="img/LightSouls.png" alt="Jogo Light Souls" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/Seriko.png" alt="Jogo Seriko" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/GoldenVow.png" alt="Jogo Seriko" />
+          </div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+      </div>
+
+      <div class="card">
+        <div class="card__descrição">
+          <div class="descrição">
+            <h3 class="descrição__titulo">Qual nossa engine?</h3>
+            <h2 class="descrição__titulo-livro">RedEngine VII</h2>
+            <p class="descrição__texto">
+              Nossa engine é usada desde de 2020 e é atualizada a cada novo projeto. A RedEngine é de uso livre para novos desenvolvedores que planejam entrar no mercado de desenvolvimento de games indie
+            </p>
+          </div>
+          <img src="img/Untitled_logo_3_free-file.jpg" class="descrição__imagem" width="100"/>
+        </div>
+        <div class="card__botões">
+          <a href="#" class="botões__ancora">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class=”carrossel”>
+    <h2 class="carrossel__titulo">Mais vendidos</h2>
+
+    <div class="carrossel__container">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="img/LightSouls.png"
+              alt="Jogo Light Souls"></div>
+          <div class="swiper-slide"><img src="img/Seriko.png" alt="Jogo Seriko">
+          </div>
+          <div class="swiper-slide"><img src="img/GoldenVow.png" alt="Jogo Golden Vow">
+          </div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <div class="card">
+        <!-- 1º linha -->
+        <div class="card__descrição">
+          <!-- 1º coluna -->
+          <div class="descrição">
+            <img src="img/481271.png" alt="Em Progresso" width="20">
+            <h3 class="descrição__titulo">Nosso próximo projeto</h3>
+            <h2 class="descrição__titulo-livro">SobreAéreo</h2>
+            <p class="descrição__texto">Jogo de sobrevivência utilizando naves para se locomover em um mundo com um buraco sem fim e ilhas voadoras.
+            </p>
+          </div>
+          <!-- 2º coluna -->
+          <img src="img/SobreAereo.png" class="Próximo projeto" width="100">
+        </div>
+
+        <!-- 2º linha -->
+        <div class="card__botões">
+          <!-- 1º coluna -->
+          <!-- 2º coluna -->
+          <a href="#" class="botões__ancora">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">Jogos em Destaque</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Seriko</a></li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Ligth Souls</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Golden Vow</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="contato">
+    <div class="contato__descrição">
+      <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+      <p class="contato__texto">
+        Atualizações de nossos projetos, iniciativas e cooperativos.
+      </p>
+    </div>
+    <input type="email" placeholder="        Cadastre seu e-mail" class="contato__email">
+  </section>
+
+  <hr />
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">Grupo RedDot</h2>
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Redes Sociais</li>
+      <li class="lista-rodapé__item">
+        <img src="img/IFunny_Logo.png" alt="Logo do IFunny" width="50"/>
+        <a href="#" class="lista-rodapé__link">IFunny</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/reddit-logo-23F13F6A6A-seeklogo.com.png" alt="Logo do Reddit" width="50"/>
+        <a href="#" class="lista-rodapé__link">Reddit</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/Instagram_icon.png.webp" alt="Logo do Instagram" width="50"/>
+        <a href="#" class="lista-rodapé__link">Instagram</a>
+      </li>    
+      <li class="lista-rodapé__item">
+        <img src="img/twitter-logo-4.png" alt="Logo do Twitter" width="50"/>
+        <a href="#" class="lista-rodapé__link">Twitter</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/youtube-logo-youtube-icon-transparent-free-png.webp" alt="Logo do YouTube" width="50"/>
+        <a href="#" class="lista-rodapé__link">YouTube</a>
+      </li>
+    </ul>
+
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Cooperativos</li>
+      <li class="lista-rodapé__item">
+        <img src="img/FromSoftware-Logo.wine.png" alt="Logo da FromSoftware" width="150"/>
+        <a href="#" class="lista-rodapé__link">FromSoftware</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/Naughty_Dog-Logo.wine.png" alt="Logo da Naughty Dog" width="150"/>
+        <a href="#" class="lista-rodapé__link">Naughty Dog</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/Rockstar_Games-Logo.wine.png" alt="Logo da Rockstar Games" width="150"/>
+        <a href="#" class="lista-rodapé__link">Rockstar Games</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/SEGA_logo.png" alt="Logo da SEGA" width="150"/>
+        <a href="#" class="lista-rodapé__link">SEGA</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/SonySantaMonicaStudioLogo.png" alt="Logo da Santa Monica Studio" width="150"/>
+        <a href="#" class="lista-rodapé__link">Santa Monica Studio</a>
+      </li>
+    </ul>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+    });
+  </script>
+</body>
+
+</html>
